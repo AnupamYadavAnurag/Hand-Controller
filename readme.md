@@ -8,7 +8,7 @@ Control your browser using hand gestures detected through your webcam! This proj
 * ✌️ **2 Fingers** → Open GitHub Profile
 * 🤟 **3 Fingers** → Open Instagram Profile
 * 🖖 **4 Fingers** → Open LinkedIn Profile
-* ✊ **Fist Gesture** → Close All Browsers
+* ✊ **Fist Gesture** → Close Browsers
 * 📷 Real-time hand tracking using webcam
 * 🎯 Gesture hold detection to avoid accidental triggers
 * 🤖 Automatic MediaPipe model download
