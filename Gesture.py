@@ -64,7 +64,7 @@ while True:
     mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
     result = landmarker.detect(mp_image)
 
-    cv2.putText(img, '1=Claude 2=ChatGPT 3=Gemini 4=LinkedIn Fist=CloseAll',
+    cv2.putText(img, '1=Portfolio 2=GitHub 3=Instagram 4=LinkedIn Fist=CloseAll',
                 (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200, 200, 200), 1)
 
     if result.hand_landmarks:
@@ -109,9 +109,9 @@ while True:
                     close_all_browsers()
 
             labels = {
-                "1": ("Opening Claude!", (255, 0, 255)),
-                "2": ("Opening ChatGPT!", (0, 255, 0)),
-                "3": ("Opening Gemini!", (0, 200, 255)),
+                "1": ("Opening Portfolio!", (255, 0, 255)),
+                "2": ("Opening GitHub!", (0, 255, 0)),
+                "3": ("Opening Instagram!", (0, 200, 255)),
                 "4": ("Opening LinkedIn!", (255, 150, 0)),
                 "fist": ("Closing All!", (0, 0, 255))
             }
