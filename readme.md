@@ -2,20 +2,20 @@
 
 Control your browser using hand gestures detected through your webcam! This project uses **MediaPipe Hand Landmarker** and **OpenCV** to recognize finger gestures and perform actions like opening social media profiles or closing all browser windows.
 
-## 🚀 Features
+##  Features
 
-* 👆 **1 Finger** → Open Portfolio Website
-* ✌️ **2 Fingers** → Open GitHub Profile
-* 🤟 **3 Fingers** → Open Instagram Profile
-* 🖖 **4 Fingers** → Open LinkedIn Profile
-* ✊ **Fist Gesture** → Close Browsers
-* 📷 Real-time hand tracking using webcam
-* 🎯 Gesture hold detection to avoid accidental triggers
-* 🤖 Automatic MediaPipe model download
+*  **1 Finger** → Open Portfolio Website
+*  **2 Fingers** → Open GitHub Profile
+*  **3 Fingers** → Open Instagram Profile
+*  **4 Fingers** → Open LinkedIn Profile
+*  **Fist Gesture** → Close Browsers
+*  Real-time hand tracking using webcam
+*  Gesture hold detection to avoid accidental triggers
+*  Automatic MediaPipe model download
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * OpenCV
@@ -60,7 +60,7 @@ The application will automatically download the required MediaPipe hand model on
 | ✌️ 2 Fingers | Open GitHub        |
 | 🤟 3 Fingers | Open Instagram     |
 | 🖖 4 Fingers | Open LinkedIn      |
-| ✊ Fist       | Close All Browsers |
+| ✊ Fist      | Close All Browsers |
 
 Hold the gesture for a short duration to trigger the action.
 
@@ -113,11 +113,3 @@ Replace them with your own portfolio, social media profiles, or any website.
 * Portfolio: https://anupamyadavanurag.github.io
 * GitHub: https://github.com/anupamyadavanurag
 * LinkedIn: https://www.linkedin.com/in/anupamyadavanurag
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub and sharing it with others.
-
-Happy Coding! 🚀
