@@ -5,7 +5,7 @@ import subprocess
 import os
 import urllib.request
 
-# --- Download model if needed ---
+#  Download model if needed
 
 model_path = 'hand_landmarker.task'
 if not os.path.exists(model_path):
@@ -118,7 +118,7 @@ while True:
             if gesture in labels and gesture_hold >= HOLD_FRAMES:
                 text, color = labels[gesture]
                 cv2.putText(img, text, (130, 110),
-                            cv2.FONT_HERSHEY_SIMPLEX, 1.2, color, 3)
+                            cv2.FONT_HERSHEY_SIMPLEX, 1.2, color, 5)
 
     else:
         gesture_hold = 0
